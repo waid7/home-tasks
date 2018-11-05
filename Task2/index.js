@@ -7,7 +7,6 @@ elems.push(document.getElementsByTagName('button'));
 elems.forEach(elem=>{
     log(elem[0],true);
     log(elem[0],false);
-    
 })
 
 function log(elem,flag) {
